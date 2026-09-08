@@ -1,0 +1,174 @@
+<!--
+  SITE_URL: the one thing to update everywhere if the domain ever changes.
+  Currently set to the free GitHub Pages URL. If deepsehgal.me (or similar) is
+  ever bought, update this comment as a reminder and change the matching
+  strings in: the canonical link, og:url, og:image, twitter:image, and the
+  JSON-LD "url" and "image" fields below, robots.txt, and sitemap.xml.
+  SITE_URL = https://dmsehgal87.github.io/
+-->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-08Z54W5TSZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-08Z54W5TSZ');
+</script>
+
+<title>Deep Sehgal, Engineering Manager, Systems Integration and AI Evaluation</title>
+<meta name="description" content="Deep Sehgal is an engineering manager focused on systems integration, test infrastructure, release governance, and AI evaluation, including LLM-as-judge systems. 16 years in software engineering, 8+ leading teams.">
+<link rel="canonical" href="https://dmsehgal87.github.io/">
+<meta name="robots" content="index, follow">
+
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Deep Sehgal, Engineering Manager, Systems Integration and AI Evaluation">
+<meta property="og:description" content="Engineering manager focused on systems integration, test infrastructure, release governance, and AI evaluation, including LLM-as-judge systems.">
+<meta property="og:url" content="https://dmsehgal87.github.io/">
+<meta property="og:image" content="https://dmsehgal87.github.io/assets/img/headshot.jpg">
+<meta property="profile:first_name" content="Deep">
+<meta property="profile:last_name" content="Sehgal">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Deep Sehgal, Engineering Manager, Systems Integration and AI Evaluation">
+<meta name="twitter:description" content="Engineering manager focused on systems integration, test infrastructure, release governance, and AI evaluation, including LLM-as-judge systems.">
+<meta name="twitter:image" content="https://dmsehgal87.github.io/assets/img/headshot.jpg">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Deep Sehgal",
+  "url": "https://dmsehgal87.github.io/",
+  "image": "https://dmsehgal87.github.io/assets/img/headshot.jpg",
+  "jobTitle": "Engineering Manager, Systems Integration, Test Infrastructure, and AI Evaluation",
+  "description": "Engineering manager with 16 years in software engineering and 8+ years leading teams, focused on systems integration, test infrastructure, release governance, and AI evaluation.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Sunnyvale",
+    "addressRegion": "CA",
+    "addressCountry": "US"
+  },
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "Bharati Vidyapeeth University"
+  },
+  "memberOf": {
+    "@type": "Organization",
+    "name": "IEEE"
+  },
+  "knowsAbout": [
+    "AI Evaluation",
+    "LLM-as-judge Systems",
+    "Test Infrastructure",
+    "Release Governance",
+    "Consumer Hardware Validation",
+    "Engineering Leadership"
+  ],
+  "sameAs": [
+    "https://www.linkedin.com/in/deep-sehgal-850865a1",
+    "https://medium.com/@dmsehgal",
+    "https://github.com/dmsehgal87"
+  ]
+}
+</script>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap nav">
+    <div class="brand">Deep Sehgal</div>
+    <ul>
+      <li><a href="#focus">Focus</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#writing">Writing</a></li>
+      <li><a href="#press">Media Coverage</a></li>
+      <li><a href="#projects">Projects</a></li>
+    </ul>
+    <button id="theme-toggle" class="theme-toggle" type="button">Theme</button>
+  </div>
+</header>
+
+<main>
+  <!--
+    Hero text is duplicated here as real static HTML, on purpose, so a
+    crawler that does not run JavaScript still sees your name, title, and
+    bio. app.js overwrites these same elements from content.js on load, so
+    content.js stays the source of truth for everything you'll actually
+    update. If you ever change your name, title, or bio in content.js,
+    update the matching text below too (it changes rarely, so this is a
+    small one-time cost each time, not an ongoing burden).
+  -->
+  <section class="hero">
+    <div class="hero-grid wrap">
+      <div class="hero-text">
+        <h1 id="hero-name">Deep Sehgal</h1>
+        <p class="role" id="hero-role">Engineering Manager, Systems Integration, Test Infrastructure, and AI Evaluation</p>
+        <p class="location" id="hero-location">Sunnyvale, CA</p>
+        <p class="bio" id="hero-bio">Engineering manager with 16 years in software engineering and 8+ years leading teams, focused on systems integration, test infrastructure, release governance, and AI evaluation, including LLM-as-judge systems that gate production releases.</p>
+        <div class="links" id="hero-links">
+          <a href="https://www.linkedin.com/in/deep-sehgal-850865a1" target="_blank" rel="noopener" class="links-primary">Message me on LinkedIn</a>
+          <a href="https://medium.com/@dmsehgal" target="_blank" rel="noopener">Medium</a>
+          <a href="https://github.com/dmsehgal87" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+      <div class="hero-photo" id="hero-photo">
+        <div class="hero-photo-fallback">DS</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="focus" class="wrap">
+    <h2 class="section-title">What I Focus On</h2>
+    <div class="card-grid" id="focus-grid"></div>
+  </section>
+
+  <section id="impact" class="wrap">
+    <h2 class="section-title">Impact</h2>
+    <ul class="impact-list" id="impact-list"></ul>
+  </section>
+
+  <section id="experience" class="wrap">
+    <h2 class="section-title">Experience</h2>
+    <div class="timeline" id="timeline"></div>
+
+    <h3 class="subsection-title">Education and Credentials</h3>
+    <div class="meta-stack" id="edu-cert"></div>
+  </section>
+
+  <section id="writing" class="wrap">
+    <h2 class="section-title">Publications and Writing</h2>
+    <div class="carousel" id="pub-carousel">
+      <div class="carousel-track" id="pub-list"></div>
+    </div>
+  </section>
+
+  <section id="press" class="wrap">
+    <h2 class="section-title">Media Coverage</h2>
+    <div class="carousel" id="media-carousel">
+      <div class="carousel-track" id="media-list"></div>
+    </div>
+  </section>
+
+  <section id="projects" class="wrap">
+    <h2 class="section-title">Beyond Work</h2>
+    <div class="card-grid" id="projects-grid"></div>
+  </section>
+</main>
+
+<footer class="wrap">
+  <p>&copy; <span id="year"></span> Deep Sehgal</p>
+</footer>
+
+<script src="content.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
